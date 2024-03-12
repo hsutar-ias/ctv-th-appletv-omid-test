@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE471E2E2B8C9A540025DB4F /* OM_TEST.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E2D2B8C9A540025DB4F /* OM_TEST.swift */; };
+		BE471E362B8C9ACE0025DB4F /* OMSDK-Static.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE471E352B8C9ACE0025DB4F /* OMSDK-Static.xcframework */; };
+		BE471E432B8C9B630025DB4F /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E3A2B8C9B630025DB4F /* Defines.swift */; };
+		BE471E442B8C9B640025DB4F /* IAS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E3B2B8C9B630025DB4F /* IAS.swift */; };
+		BE471E452B8C9B640025DB4F /* IASAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E3C2B8C9B630025DB4F /* IASAd.swift */; };
+		BE471E462B8C9B640025DB4F /* IASBannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E3E2B8C9B630025DB4F /* IASBannerAdView.swift */; };
+		BE471E472B8C9B640025DB4F /* IASBaseDisplayAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E412B8C9B630025DB4F /* IASBaseDisplayAdView.swift */; };
+		BE471E992B8C9C2A0025DB4F /* IASVideoAdLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E492B8C9C2A0025DB4F /* IASVideoAdLoader.swift */; };
+		BE471E9A2B8C9C2A0025DB4F /* IASBaseAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E4A2B8C9C2A0025DB4F /* IASBaseAd.swift */; };
+		BE471E9B2B8C9C2A0025DB4F /* IASNativeVideoAdInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E4B2B8C9C2A0025DB4F /* IASNativeVideoAdInfo.swift */; };
+		BE471E9C2B8C9C2A0025DB4F /* IASNativeVASTAdInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E4C2B8C9C2A0025DB4F /* IASNativeVASTAdInfo.swift */; };
+		BE471E9D2B8C9C2A0025DB4F /* VASTResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E4E2B8C9C2A0025DB4F /* VASTResponseParser.swift */; };
+		BE471E9E2B8C9C2A0025DB4F /* VASTAdDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E4F2B8C9C2A0025DB4F /* VASTAdDataParser.swift */; };
+		BE471E9F2B8C9C2A0025DB4F /* VASTAdMediaDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E502B8C9C2A0025DB4F /* VASTAdMediaDataParser.swift */; };
+		BE471EA02B8C9C2A0025DB4F /* VASTOmidVerificationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E512B8C9C2A0025DB4F /* VASTOmidVerificationParser.swift */; };
+		BE471EA12B8C9C2A0025DB4F /* IASVASTParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E522B8C9C2A0025DB4F /* IASVASTParser.swift */; };
+		BE471EA22B8C9C2A0025DB4F /* VASTCreativeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E532B8C9C2A0025DB4F /* VASTCreativeParser.swift */; };
+		BE471EA32B8C9C2A0025DB4F /* VASTAvidParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E542B8C9C2A0025DB4F /* VASTAvidParser.swift */; };
+		BE471EA42B8C9C2A0025DB4F /* VASTInLineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E552B8C9C2A0025DB4F /* VASTInLineParser.swift */; };
+		BE471EA52B8C9C2A0025DB4F /* VASTWrapperParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E562B8C9C2A0025DB4F /* VASTWrapperParser.swift */; };
+		BE471EA62B8C9C2A0025DB4F /* VASTImpressionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E572B8C9C2A0025DB4F /* VASTImpressionParser.swift */; };
+		BE471EA72B8C9C2A0025DB4F /* VASTOmidAdVerificationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E582B8C9C2A0025DB4F /* VASTOmidAdVerificationParser.swift */; };
+		BE471EA82B8C9C2A0025DB4F /* VASTAdParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E592B8C9C2A0025DB4F /* VASTAdParser.swift */; };
+		BE471EA92B8C9C2A0025DB4F /* IASVideoAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E5A2B8C9C2A0025DB4F /* IASVideoAd.swift */; };
+		BE471EAA2B8C9C2A0025DB4F /* IASInterstitialVideoAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E5B2B8C9C2A0025DB4F /* IASInterstitialVideoAd.swift */; };
+		BE471EAB2B8C9C2A0025DB4F /* IASVideoViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E5E2B8C9C2A0025DB4F /* IASVideoViewInterface.swift */; };
+		BE471EAC2B8C9C2A0025DB4F /* IASVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E602B8C9C2A0025DB4F /* IASVideoView.swift */; };
+		BE471EAD2B8C9C2A0025DB4F /* IASNativeVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E612B8C9C2A0025DB4F /* IASNativeVideoView.swift */; };
+		BE471EAE2B8C9C2A0025DB4F /* IASVideoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E622B8C9C2A0025DB4F /* IASVideoDelegate.swift */; };
+		BE471EAF2B8C9C2A0025DB4F /* IASBaseVideoAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E642B8C9C2A0025DB4F /* IASBaseVideoAd.swift */; };
+		BE471EB02B8C9C2A0025DB4F /* DispatchOnceForQurtileEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E662B8C9C2A0025DB4F /* DispatchOnceForQurtileEvents.swift */; };
+		BE471EB12B8C9C2A0025DB4F /* IASVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E672B8C9C2A0025DB4F /* IASVideoPlayer.swift */; };
+		BE471EB22B8C9C2A0025DB4F /* AdMediaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E692B8C9C2A0025DB4F /* AdMediaData.swift */; };
+		BE471EB32B8C9C2A0025DB4F /* OMIDTrackingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E6A2B8C9C2A0025DB4F /* OMIDTrackingEvent.swift */; };
+		BE471EB42B8C9C2A0025DB4F /* OmidAdVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E6B2B8C9C2A0025DB4F /* OmidAdVerification.swift */; };
+		BE471EB52B8C9C2A0025DB4F /* OMIDAdImpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E6C2B8C9C2A0025DB4F /* OMIDAdImpression.swift */; };
+		BE471EB62B8C9C2A0025DB4F /* VASTResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E6D2B8C9C2A0025DB4F /* VASTResponse.swift */; };
+		BE471EB72B8C9C2A0025DB4F /* AdData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E6E2B8C9C2A0025DB4F /* AdData.swift */; };
+		BE471EB82B8C9C2A0025DB4F /* InLineAdData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E6F2B8C9C2A0025DB4F /* InLineAdData.swift */; };
+		BE471EB92B8C9C2A0025DB4F /* LinearAdMediaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E702B8C9C2A0025DB4F /* LinearAdMediaData.swift */; };
+		BE471EBA2B8C9C2B0025DB4F /* AdCreative.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E712B8C9C2A0025DB4F /* AdCreative.swift */; };
+		BE471EBB2B8C9C2B0025DB4F /* OMIDImpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E722B8C9C2A0025DB4F /* OMIDImpression.swift */; };
+		BE471EBC2B8C9C2B0025DB4F /* OmidVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E732B8C9C2A0025DB4F /* OmidVerification.swift */; };
+		BE471EBD2B8C9C2B0025DB4F /* OMIDAdTrackingEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E742B8C9C2A0025DB4F /* OMIDAdTrackingEvents.swift */; };
+		BE471EBE2B8C9C2B0025DB4F /* WrapperAdData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E752B8C9C2A0025DB4F /* WrapperAdData.swift */; };
+		BE471EBF2B8C9C2B0025DB4F /* IASNetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E772B8C9C2A0025DB4F /* IASNetworkHelper.swift */; };
+		BE471EC02B8C9C2B0025DB4F /* NSURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E782B8C9C2A0025DB4F /* NSURLSession.swift */; };
+		BE471EC12B8C9C2B0025DB4F /* IASNativeDisplayAdInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E7A2B8C9C2A0025DB4F /* IASNativeDisplayAdInfo.swift */; };
+		BE471EC22B8C9C2B0025DB4F /* IASNativeAdContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E7B2B8C9C2A0025DB4F /* IASNativeAdContainer.swift */; };
+		BE471EC32B8C9C2B0025DB4F /* IASOMID.m in Sources */ = {isa = PBXBuildFile; fileRef = BE471E842B8C9C2A0025DB4F /* IASOMID.m */; };
+		BE471EC42B8C9C2B0025DB4F /* TreeTimeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = BE471E8A2B8C9C2A0025DB4F /* TreeTimeLogger.m */; };
+		BE471EC52B8C9C2B0025DB4F /* OMSDK-iOS-v1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE471E8F2B8C9C2A0025DB4F /* OMSDK-iOS-v1.a */; };
+		BE471EC62B8C9C2B0025DB4F /* IASUserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E912B8C9C2A0025DB4F /* IASUserAgent.swift */; };
+		BE471EC72B8C9C2B0025DB4F /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E922B8C9C2A0025DB4F /* ImageExtensions.swift */; };
+		BE471EC82B8C9C2B0025DB4F /* TimeLoggerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E932B8C9C2A0025DB4F /* TimeLoggerWrapper.swift */; };
+		BE471EC92B8C9C2B0025DB4F /* IASCreativesURLUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E942B8C9C2A0025DB4F /* IASCreativesURLUtil.swift */; };
+		BE471ECA2B8C9C2B0025DB4F /* IASServerPortConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E952B8C9C2A0025DB4F /* IASServerPortConfig.swift */; };
+		BE471ECB2B8C9C2B0025DB4F /* SdkAdSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E962B8C9C2A0025DB4F /* SdkAdSession.swift */; };
+		BE471ECC2B8C9C2B0025DB4F /* IASPartner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E972B8C9C2A0025DB4F /* IASPartner.swift */; };
+		BE471ECD2B8C9C2B0025DB4F /* IASUIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE471E982B8C9C2A0025DB4F /* IASUIViewExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE471E292B8C9A540025DB4F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE471E132B8C99EB0025DB4F /* OM_TESTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OM_TESTApp.swift; sourceTree = "<group>"; };
+		BE471E152B8C99EB0025DB4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE471E172B8C99ED0025DB4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE471E1A2B8C99ED0025DB4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE471E2B2B8C9A540025DB4F /* libOM_TEST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOM_TEST.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE471E2D2B8C9A540025DB4F /* OM_TEST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OM_TEST.swift; sourceTree = "<group>"; };
+		BE471E352B8C9ACE0025DB4F /* OMSDK-Static.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "OMSDK-Static.xcframework"; sourceTree = "<group>"; };
+		BE471E3A2B8C9B630025DB4F /* Defines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defines.swift; sourceTree = "<group>"; };
+		BE471E3B2B8C9B630025DB4F /* IAS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAS.swift; sourceTree = "<group>"; };
+		BE471E3C2B8C9B630025DB4F /* IASAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASAd.swift; sourceTree = "<group>"; };
+		BE471E3D2B8C9B630025DB4F /* IAS.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IAS.xcassets; sourceTree = "<group>"; };
+		BE471E3E2B8C9B630025DB4F /* IASBannerAdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASBannerAdView.swift; sourceTree = "<group>"; };
+		BE471E412B8C9B630025DB4F /* IASBaseDisplayAdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASBaseDisplayAdView.swift; sourceTree = "<group>"; };
+		BE471E492B8C9C2A0025DB4F /* IASVideoAdLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASVideoAdLoader.swift; sourceTree = "<group>"; };
+		BE471E4A2B8C9C2A0025DB4F /* IASBaseAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASBaseAd.swift; sourceTree = "<group>"; };
+		BE471E4B2B8C9C2A0025DB4F /* IASNativeVideoAdInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASNativeVideoAdInfo.swift; sourceTree = "<group>"; };
+		BE471E4C2B8C9C2A0025DB4F /* IASNativeVASTAdInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASNativeVASTAdInfo.swift; sourceTree = "<group>"; };
+		BE471E4E2B8C9C2A0025DB4F /* VASTResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VASTResponseParser.swift; sourceTree = "<group>"; };
+		BE471E4F2B8C9C2A0025DB4F /* VASTAdDataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VASTAdDataParser.swift; sourceTree = "<group>"; };
+		BE471E502B8C9C2A0025DB4F /* VASTAdMediaDataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VASTAdMediaDataParser.swift; sourceTree = "<group>"; };
+		BE471E512B8C9C2A0025DB4F /* VASTOmidVerificationParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VASTOmidVerificationParser.swift; sourceTree = "<group>"; };
+		BE471E522B8C9C2A0025DB4F /* IASVASTParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASVASTParser.swift; sourceTree = "<group>"; };
+		BE471E532B8C9C2A0025DB4F /* VASTCreativeParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VASTCreativeParser.swift; sourceTree = "<group>"; };
+		BE471E542B8C9C2A0025DB4F /* VASTAvidParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VASTAvidParser.swift; sourceTree = "<group>"; };
+		BE471E552B8C9C2A0025DB4F /* VASTInLineParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VASTInLineParser.swift; sourceTree = "<group>"; };
+		BE471E562B8C9C2A0025DB4F /* VASTWrapperParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VASTWrapperParser.swift; sourceTree = "<group>"; };
+		BE471E572B8C9C2A0025DB4F /* VASTImpressionParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VASTImpressionParser.swift; sourceTree = "<group>"; };
+		BE471E582B8C9C2A0025DB4F /* VASTOmidAdVerificationParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VASTOmidAdVerificationParser.swift; sourceTree = "<group>"; };
+		BE471E592B8C9C2A0025DB4F /* VASTAdParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VASTAdParser.swift; sourceTree = "<group>"; };
+		BE471E5A2B8C9C2A0025DB4F /* IASVideoAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASVideoAd.swift; sourceTree = "<group>"; };
+		BE471E5B2B8C9C2A0025DB4F /* IASInterstitialVideoAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASInterstitialVideoAd.swift; sourceTree = "<group>"; };
+		BE471E5D2B8C9C2A0025DB4F /* IASVideoBannerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IASVideoBannerView.xib; sourceTree = "<group>"; };
+		BE471E5E2B8C9C2A0025DB4F /* IASVideoViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASVideoViewInterface.swift; sourceTree = "<group>"; };
+		BE471E5F2B8C9C2A0025DB4F /* IASNativeVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IASNativeVideoView.xib; sourceTree = "<group>"; };
+		BE471E602B8C9C2A0025DB4F /* IASVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASVideoView.swift; sourceTree = "<group>"; };
+		BE471E612B8C9C2A0025DB4F /* IASNativeVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASNativeVideoView.swift; sourceTree = "<group>"; };
+		BE471E622B8C9C2A0025DB4F /* IASVideoDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASVideoDelegate.swift; sourceTree = "<group>"; };
+		BE471E642B8C9C2A0025DB4F /* IASBaseVideoAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASBaseVideoAd.swift; sourceTree = "<group>"; };
+		BE471E662B8C9C2A0025DB4F /* DispatchOnceForQurtileEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchOnceForQurtileEvents.swift; sourceTree = "<group>"; };
+		BE471E672B8C9C2A0025DB4F /* IASVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASVideoPlayer.swift; sourceTree = "<group>"; };
+		BE471E692B8C9C2A0025DB4F /* AdMediaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdMediaData.swift; sourceTree = "<group>"; };
+		BE471E6A2B8C9C2A0025DB4F /* OMIDTrackingEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMIDTrackingEvent.swift; sourceTree = "<group>"; };
+		BE471E6B2B8C9C2A0025DB4F /* OmidAdVerification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OmidAdVerification.swift; sourceTree = "<group>"; };
+		BE471E6C2B8C9C2A0025DB4F /* OMIDAdImpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMIDAdImpression.swift; sourceTree = "<group>"; };
+		BE471E6D2B8C9C2A0025DB4F /* VASTResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VASTResponse.swift; sourceTree = "<group>"; };
+		BE471E6E2B8C9C2A0025DB4F /* AdData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdData.swift; sourceTree = "<group>"; };
+		BE471E6F2B8C9C2A0025DB4F /* InLineAdData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InLineAdData.swift; sourceTree = "<group>"; };
+		BE471E702B8C9C2A0025DB4F /* LinearAdMediaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearAdMediaData.swift; sourceTree = "<group>"; };
+		BE471E712B8C9C2A0025DB4F /* AdCreative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdCreative.swift; sourceTree = "<group>"; };
+		BE471E722B8C9C2A0025DB4F /* OMIDImpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMIDImpression.swift; sourceTree = "<group>"; };
+		BE471E732B8C9C2A0025DB4F /* OmidVerification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OmidVerification.swift; sourceTree = "<group>"; };
+		BE471E742B8C9C2A0025DB4F /* OMIDAdTrackingEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMIDAdTrackingEvents.swift; sourceTree = "<group>"; };
+		BE471E752B8C9C2A0025DB4F /* WrapperAdData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrapperAdData.swift; sourceTree = "<group>"; };
+		BE471E772B8C9C2A0025DB4F /* IASNetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASNetworkHelper.swift; sourceTree = "<group>"; };
+		BE471E782B8C9C2A0025DB4F /* NSURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLSession.swift; sourceTree = "<group>"; };
+		BE471E7A2B8C9C2A0025DB4F /* IASNativeDisplayAdInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASNativeDisplayAdInfo.swift; sourceTree = "<group>"; };
+		BE471E7B2B8C9C2A0025DB4F /* IASNativeAdContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASNativeAdContainer.swift; sourceTree = "<group>"; };
+		BE471E7D2B8C9C2A0025DB4F /* IASOMID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASOMID.h; sourceTree = "<group>"; };
+		BE471E7E2B8C9C2A0025DB4F /* OMIDAdSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDAdSession.h; sourceTree = "<group>"; };
+		BE471E7F2B8C9C2A0025DB4F /* OMIDSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDSDK.h; sourceTree = "<group>"; };
+		BE471E802B8C9C2A0025DB4F /* OMIDVASTProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDVASTProperties.h; sourceTree = "<group>"; };
+		BE471E812B8C9C2A0025DB4F /* TreeTimeLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeTimeLogger.h; sourceTree = "<group>"; };
+		BE471E822B8C9C2A0025DB4F /* OMIDAdSessionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDAdSessionConfiguration.h; sourceTree = "<group>"; };
+		BE471E832B8C9C2A0025DB4F /* OMIDImports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDImports.h; sourceTree = "<group>"; };
+		BE471E842B8C9C2A0025DB4F /* IASOMID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASOMID.m; sourceTree = "<group>"; };
+		BE471E852B8C9C2A0025DB4F /* OMIDMediaEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDMediaEvents.h; sourceTree = "<group>"; };
+		BE471E862B8C9C2A0025DB4F /* OMIDAdSessionContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDAdSessionContext.h; sourceTree = "<group>"; };
+		BE471E872B8C9C2A0025DB4F /* OMIDScriptInjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDScriptInjector.h; sourceTree = "<group>"; };
+		BE471E882B8C9C2A0025DB4F /* IASOMID_SDK-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IASOMID_SDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		BE471E892B8C9C2A0025DB4F /* OMIDAdEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDAdEvents.h; sourceTree = "<group>"; };
+		BE471E8A2B8C9C2A0025DB4F /* TreeTimeLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeTimeLogger.m; sourceTree = "<group>"; };
+		BE471E8B2B8C9C2A0025DB4F /* OMIDFriendlyObstructionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDFriendlyObstructionType.h; sourceTree = "<group>"; };
+		BE471E8C2B8C9C2A0025DB4F /* OMIDVerificationScriptResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDVerificationScriptResource.h; sourceTree = "<group>"; };
+		BE471E8D2B8C9C2A0025DB4F /* OMIDPartner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDPartner.h; sourceTree = "<group>"; };
+		BE471E8F2B8C9C2A0025DB4F /* OMSDK-iOS-v1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "OMSDK-iOS-v1.a"; sourceTree = "<group>"; };
+		BE471E912B8C9C2A0025DB4F /* IASUserAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASUserAgent.swift; sourceTree = "<group>"; };
+		BE471E922B8C9C2A0025DB4F /* ImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
+		BE471E932B8C9C2A0025DB4F /* TimeLoggerWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLoggerWrapper.swift; sourceTree = "<group>"; };
+		BE471E942B8C9C2A0025DB4F /* IASCreativesURLUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASCreativesURLUtil.swift; sourceTree = "<group>"; };
+		BE471E952B8C9C2A0025DB4F /* IASServerPortConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASServerPortConfig.swift; sourceTree = "<group>"; };
+		BE471E962B8C9C2A0025DB4F /* SdkAdSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SdkAdSession.swift; sourceTree = "<group>"; };
+		BE471E972B8C9C2A0025DB4F /* IASPartner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASPartner.swift; sourceTree = "<group>"; };
+		BE471E982B8C9C2A0025DB4F /* IASUIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IASUIViewExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE471E282B8C9A540025DB4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE471E362B8C9ACE0025DB4F /* OMSDK-Static.xcframework in Frameworks */,
+				BE471EC52B8C9C2B0025DB4F /* OMSDK-iOS-v1.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE471E072B8C99EA0025DB4F = {
+			isa = PBXGroup;
+			children = (
+				BE471E342B8C9AA60025DB4F /* Framework */,
+				BE471E122B8C99EB0025DB4F /* OM_TEST */,
+				BE471E2C2B8C9A540025DB4F /* OM_TEST */,
+				BE471E112B8C99EB0025DB4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE471E112B8C99EB0025DB4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E2B2B8C9A540025DB4F /* libOM_TEST.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE471E122B8C99EB0025DB4F /* OM_TEST */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E132B8C99EB0025DB4F /* OM_TESTApp.swift */,
+				BE471E152B8C99EB0025DB4F /* ContentView.swift */,
+				BE471E172B8C99ED0025DB4F /* Assets.xcassets */,
+				BE471E192B8C99ED0025DB4F /* Preview Content */,
+			);
+			path = OM_TEST;
+			sourceTree = "<group>";
+		};
+		BE471E192B8C99ED0025DB4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E1A2B8C99ED0025DB4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE471E2C2B8C9A540025DB4F /* OM_TEST */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E7C2B8C9C2A0025DB4F /* Bridging */,
+				BE471E8E2B8C9C2A0025DB4F /* Framwork */,
+				BE471E792B8C9C2A0025DB4F /* NativeAd */,
+				BE471E482B8C9C2A0025DB4F /* NativeVideoAd */,
+				BE471E762B8C9C2A0025DB4F /* Network */,
+				BE471E902B8C9C2A0025DB4F /* Util */,
+				BE471E3A2B8C9B630025DB4F /* Defines.swift */,
+				BE471E3B2B8C9B630025DB4F /* IAS.swift */,
+				BE471E3D2B8C9B630025DB4F /* IAS.xcassets */,
+				BE471E3C2B8C9B630025DB4F /* IASAd.swift */,
+				BE471E3E2B8C9B630025DB4F /* IASBannerAdView.swift */,
+				BE471E412B8C9B630025DB4F /* IASBaseDisplayAdView.swift */,
+				BE471E2D2B8C9A540025DB4F /* OM_TEST.swift */,
+			);
+			path = OM_TEST;
+			sourceTree = "<group>";
+		};
+		BE471E342B8C9AA60025DB4F /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E352B8C9ACE0025DB4F /* OMSDK-Static.xcframework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		BE471E482B8C9C2A0025DB4F /* NativeVideoAd */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E492B8C9C2A0025DB4F /* IASVideoAdLoader.swift */,
+				BE471E4A2B8C9C2A0025DB4F /* IASBaseAd.swift */,
+				BE471E4B2B8C9C2A0025DB4F /* IASNativeVideoAdInfo.swift */,
+				BE471E4C2B8C9C2A0025DB4F /* IASNativeVASTAdInfo.swift */,
+				BE471E4D2B8C9C2A0025DB4F /* VASTParser */,
+				BE471E5A2B8C9C2A0025DB4F /* IASVideoAd.swift */,
+				BE471E5B2B8C9C2A0025DB4F /* IASInterstitialVideoAd.swift */,
+				BE471E5C2B8C9C2A0025DB4F /* View */,
+				BE471E622B8C9C2A0025DB4F /* IASVideoDelegate.swift */,
+				BE471E632B8C9C2A0025DB4F /* Base */,
+				BE471E652B8C9C2A0025DB4F /* Player */,
+				BE471E682B8C9C2A0025DB4F /* VAST */,
+			);
+			path = NativeVideoAd;
+			sourceTree = "<group>";
+		};
+		BE471E4D2B8C9C2A0025DB4F /* VASTParser */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E4E2B8C9C2A0025DB4F /* VASTResponseParser.swift */,
+				BE471E4F2B8C9C2A0025DB4F /* VASTAdDataParser.swift */,
+				BE471E502B8C9C2A0025DB4F /* VASTAdMediaDataParser.swift */,
+				BE471E512B8C9C2A0025DB4F /* VASTOmidVerificationParser.swift */,
+				BE471E522B8C9C2A0025DB4F /* IASVASTParser.swift */,
+				BE471E532B8C9C2A0025DB4F /* VASTCreativeParser.swift */,
+				BE471E542B8C9C2A0025DB4F /* VASTAvidParser.swift */,
+				BE471E552B8C9C2A0025DB4F /* VASTInLineParser.swift */,
+				BE471E562B8C9C2A0025DB4F /* VASTWrapperParser.swift */,
+				BE471E572B8C9C2A0025DB4F /* VASTImpressionParser.swift */,
+				BE471E582B8C9C2A0025DB4F /* VASTOmidAdVerificationParser.swift */,
+				BE471E592B8C9C2A0025DB4F /* VASTAdParser.swift */,
+			);
+			path = VASTParser;
+			sourceTree = "<group>";
+		};
+		BE471E5C2B8C9C2A0025DB4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E5D2B8C9C2A0025DB4F /* IASVideoBannerView.xib */,
+				BE471E5E2B8C9C2A0025DB4F /* IASVideoViewInterface.swift */,
+				BE471E5F2B8C9C2A0025DB4F /* IASNativeVideoView.xib */,
+				BE471E602B8C9C2A0025DB4F /* IASVideoView.swift */,
+				BE471E612B8C9C2A0025DB4F /* IASNativeVideoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE471E632B8C9C2A0025DB4F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E642B8C9C2A0025DB4F /* IASBaseVideoAd.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BE471E652B8C9C2A0025DB4F /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E662B8C9C2A0025DB4F /* DispatchOnceForQurtileEvents.swift */,
+				BE471E672B8C9C2A0025DB4F /* IASVideoPlayer.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		BE471E682B8C9C2A0025DB4F /* VAST */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E692B8C9C2A0025DB4F /* AdMediaData.swift */,
+				BE471E6A2B8C9C2A0025DB4F /* OMIDTrackingEvent.swift */,
+				BE471E6B2B8C9C2A0025DB4F /* OmidAdVerification.swift */,
+				BE471E6C2B8C9C2A0025DB4F /* OMIDAdImpression.swift */,
+				BE471E6D2B8C9C2A0025DB4F /* VASTResponse.swift */,
+				BE471E6E2B8C9C2A0025DB4F /* AdData.swift */,
+				BE471E6F2B8C9C2A0025DB4F /* InLineAdData.swift */,
+				BE471E702B8C9C2A0025DB4F /* LinearAdMediaData.swift */,
+				BE471E712B8C9C2A0025DB4F /* AdCreative.swift */,
+				BE471E722B8C9C2A0025DB4F /* OMIDImpression.swift */,
+				BE471E732B8C9C2A0025DB4F /* OmidVerification.swift */,
+				BE471E742B8C9C2A0025DB4F /* OMIDAdTrackingEvents.swift */,
+				BE471E752B8C9C2A0025DB4F /* WrapperAdData.swift */,
+			);
+			path = VAST;
+			sourceTree = "<group>";
+		};
+		BE471E762B8C9C2A0025DB4F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E772B8C9C2A0025DB4F /* IASNetworkHelper.swift */,
+				BE471E782B8C9C2A0025DB4F /* NSURLSession.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BE471E792B8C9C2A0025DB4F /* NativeAd */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E7A2B8C9C2A0025DB4F /* IASNativeDisplayAdInfo.swift */,
+				BE471E7B2B8C9C2A0025DB4F /* IASNativeAdContainer.swift */,
+			);
+			path = NativeAd;
+			sourceTree = "<group>";
+		};
+		BE471E7C2B8C9C2A0025DB4F /* Bridging */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E7D2B8C9C2A0025DB4F /* IASOMID.h */,
+				BE471E7E2B8C9C2A0025DB4F /* OMIDAdSession.h */,
+				BE471E7F2B8C9C2A0025DB4F /* OMIDSDK.h */,
+				BE471E802B8C9C2A0025DB4F /* OMIDVASTProperties.h */,
+				BE471E812B8C9C2A0025DB4F /* TreeTimeLogger.h */,
+				BE471E822B8C9C2A0025DB4F /* OMIDAdSessionConfiguration.h */,
+				BE471E832B8C9C2A0025DB4F /* OMIDImports.h */,
+				BE471E842B8C9C2A0025DB4F /* IASOMID.m */,
+				BE471E852B8C9C2A0025DB4F /* OMIDMediaEvents.h */,
+				BE471E862B8C9C2A0025DB4F /* OMIDAdSessionContext.h */,
+				BE471E872B8C9C2A0025DB4F /* OMIDScriptInjector.h */,
+				BE471E882B8C9C2A0025DB4F /* IASOMID_SDK-Bridging-Header.h */,
+				BE471E892B8C9C2A0025DB4F /* OMIDAdEvents.h */,
+				BE471E8A2B8C9C2A0025DB4F /* TreeTimeLogger.m */,
+				BE471E8B2B8C9C2A0025DB4F /* OMIDFriendlyObstructionType.h */,
+				BE471E8C2B8C9C2A0025DB4F /* OMIDVerificationScriptResource.h */,
+				BE471E8D2B8C9C2A0025DB4F /* OMIDPartner.h */,
+			);
+			path = Bridging;
+			sourceTree = "<group>";
+		};
+		BE471E8E2B8C9C2A0025DB4F /* Framwork */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E8F2B8C9C2A0025DB4F /* OMSDK-iOS-v1.a */,
+			);
+			path = Framwork;
+			sourceTree = "<group>";
+		};
+		BE471E902B8C9C2A0025DB4F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BE471E912B8C9C2A0025DB4F /* IASUserAgent.swift */,
+				BE471E922B8C9C2A0025DB4F /* ImageExtensions.swift */,
+				BE471E932B8C9C2A0025DB4F /* TimeLoggerWrapper.swift */,
+				BE471E942B8C9C2A0025DB4F /* IASCreativesURLUtil.swift */,
+				BE471E952B8C9C2A0025DB4F /* IASServerPortConfig.swift */,
+				BE471E962B8C9C2A0025DB4F /* SdkAdSession.swift */,
+				BE471E972B8C9C2A0025DB4F /* IASPartner.swift */,
+				BE471E982B8C9C2A0025DB4F /* IASUIViewExtension.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE471E2A2B8C9A540025DB4F /* OM_TEST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE471E2F2B8C9A540025DB4F /* Build configuration list for PBXNativeTarget "OM_TEST" */;
+			buildPhases = (
+				BE471E272B8C9A540025DB4F /* Sources */,
+				BE471E282B8C9A540025DB4F /* Frameworks */,
+				BE471E292B8C9A540025DB4F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OM_TEST;
+			productName = OM_TEST;
+			productReference = BE471E2B2B8C9A540025DB4F /* libOM_TEST.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE471E082B8C99EA0025DB4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BE471E2A2B8C9A540025DB4F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = BE471E0B2B8C99EA0025DB4F /* Build configuration list for PBXProject "OM_TEST" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE471E072B8C99EA0025DB4F;
+			productRefGroup = BE471E112B8C99EB0025DB4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE471E2A2B8C9A540025DB4F /* OM_TEST */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE471E272B8C9A540025DB4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE471ECB2B8C9C2B0025DB4F /* SdkAdSession.swift in Sources */,
+				BE471EAC2B8C9C2A0025DB4F /* IASVideoView.swift in Sources */,
+				BE471EB12B8C9C2A0025DB4F /* IASVideoPlayer.swift in Sources */,
+				BE471EB92B8C9C2A0025DB4F /* LinearAdMediaData.swift in Sources */,
+				BE471EA72B8C9C2A0025DB4F /* VASTOmidAdVerificationParser.swift in Sources */,
+				BE471E9F2B8C9C2A0025DB4F /* VASTAdMediaDataParser.swift in Sources */,
+				BE471EA22B8C9C2A0025DB4F /* VASTCreativeParser.swift in Sources */,
+				BE471EB02B8C9C2A0025DB4F /* DispatchOnceForQurtileEvents.swift in Sources */,
+				BE471EBF2B8C9C2B0025DB4F /* IASNetworkHelper.swift in Sources */,
+				BE471E452B8C9B640025DB4F /* IASAd.swift in Sources */,
+				BE471ECC2B8C9C2B0025DB4F /* IASPartner.swift in Sources */,
+				BE471EA92B8C9C2A0025DB4F /* IASVideoAd.swift in Sources */,
+				BE471EBD2B8C9C2B0025DB4F /* OMIDAdTrackingEvents.swift in Sources */,
+				BE471E992B8C9C2A0025DB4F /* IASVideoAdLoader.swift in Sources */,
+				BE471EA82B8C9C2A0025DB4F /* VASTAdParser.swift in Sources */,
+				BE471EA52B8C9C2A0025DB4F /* VASTWrapperParser.swift in Sources */,
+				BE471EB22B8C9C2A0025DB4F /* AdMediaData.swift in Sources */,
+				BE471EBE2B8C9C2B0025DB4F /* WrapperAdData.swift in Sources */,
+				BE471E462B8C9B640025DB4F /* IASBannerAdView.swift in Sources */,
+				BE471EC02B8C9C2B0025DB4F /* NSURLSession.swift in Sources */,
+				BE471E432B8C9B630025DB4F /* Defines.swift in Sources */,
+				BE471E9B2B8C9C2A0025DB4F /* IASNativeVideoAdInfo.swift in Sources */,
+				BE471EA42B8C9C2A0025DB4F /* VASTInLineParser.swift in Sources */,
+				BE471EB72B8C9C2A0025DB4F /* AdData.swift in Sources */,
+				BE471EAB2B8C9C2A0025DB4F /* IASVideoViewInterface.swift in Sources */,
+				BE471EBC2B8C9C2B0025DB4F /* OmidVerification.swift in Sources */,
+				BE471EA62B8C9C2A0025DB4F /* VASTImpressionParser.swift in Sources */,
+				BE471EB42B8C9C2A0025DB4F /* OmidAdVerification.swift in Sources */,
+				BE471EB52B8C9C2A0025DB4F /* OMIDAdImpression.swift in Sources */,
+				BE471EA02B8C9C2A0025DB4F /* VASTOmidVerificationParser.swift in Sources */,
+				BE471EAE2B8C9C2A0025DB4F /* IASVideoDelegate.swift in Sources */,
+				BE471EAF2B8C9C2A0025DB4F /* IASBaseVideoAd.swift in Sources */,
+				BE471EC92B8C9C2B0025DB4F /* IASCreativesURLUtil.swift in Sources */,
+				BE471EC32B8C9C2B0025DB4F /* IASOMID.m in Sources */,
+				BE471E472B8C9B640025DB4F /* IASBaseDisplayAdView.swift in Sources */,
+				BE471EC62B8C9C2B0025DB4F /* IASUserAgent.swift in Sources */,
+				BE471EB82B8C9C2A0025DB4F /* InLineAdData.swift in Sources */,
+				BE471EBB2B8C9C2B0025DB4F /* OMIDImpression.swift in Sources */,
+				BE471EC72B8C9C2B0025DB4F /* ImageExtensions.swift in Sources */,
+				BE471EC22B8C9C2B0025DB4F /* IASNativeAdContainer.swift in Sources */,
+				BE471EAD2B8C9C2A0025DB4F /* IASNativeVideoView.swift in Sources */,
+				BE471E442B8C9B640025DB4F /* IAS.swift in Sources */,
+				BE471E9E2B8C9C2A0025DB4F /* VASTAdDataParser.swift in Sources */,
+				BE471EC42B8C9C2B0025DB4F /* TreeTimeLogger.m in Sources */,
+				BE471ECD2B8C9C2B0025DB4F /* IASUIViewExtension.swift in Sources */,
+				BE471ECA2B8C9C2B0025DB4F /* IASServerPortConfig.swift in Sources */,
+				BE471EA12B8C9C2A0025DB4F /* IASVASTParser.swift in Sources */,
+				BE471E9D2B8C9C2A0025DB4F /* VASTResponseParser.swift in Sources */,
+				BE471E9C2B8C9C2A0025DB4F /* IASNativeVASTAdInfo.swift in Sources */,
+				BE471EC82B8C9C2B0025DB4F /* TimeLoggerWrapper.swift in Sources */,
+				BE471EC12B8C9C2B0025DB4F /* IASNativeDisplayAdInfo.swift in Sources */,
+				BE471EAA2B8C9C2A0025DB4F /* IASInterstitialVideoAd.swift in Sources */,
+				BE471E2E2B8C9A540025DB4F /* OM_TEST.swift in Sources */,
+				BE471EBA2B8C9C2B0025DB4F /* AdCreative.swift in Sources */,
+				BE471E9A2B8C9C2A0025DB4F /* IASBaseAd.swift in Sources */,
+				BE471EB32B8C9C2A0025DB4F /* OMIDTrackingEvent.swift in Sources */,
+				BE471EB62B8C9C2A0025DB4F /* VASTResponse.swift in Sources */,
+				BE471EA32B8C9C2A0025DB4F /* VASTAvidParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE471E1C2B8C99ED0025DB4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Debug;
+		};
+		BE471E1D2B8C99ED0025DB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE471E302B8C9A540025DB4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OM_TEST/Framwork",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OM_TEST/Bridging/IASOMID_SDK-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		BE471E312B8C9A540025DB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OM_TEST/Framwork",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OM_TEST/Bridging/IASOMID_SDK-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE471E0B2B8C99EA0025DB4F /* Build configuration list for PBXProject "OM_TEST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE471E1C2B8C99ED0025DB4F /* Debug */,
+				BE471E1D2B8C99ED0025DB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE471E2F2B8C9A540025DB4F /* Build configuration list for PBXNativeTarget "OM_TEST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE471E302B8C9A540025DB4F /* Debug */,
+				BE471E312B8C9A540025DB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE471E082B8C99EA0025DB4F /* Project object */;
+}

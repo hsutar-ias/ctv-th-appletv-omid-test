@@ -1,0 +1,6 @@
+framework module Pods_IAS_Apple_CTV_Demo {
+  umbrella header "Pods-IAS Apple CTV Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

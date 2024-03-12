@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		436CD34928351241001F5255 /* IASUserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CD34828351241001F5255 /* IASUserAgent.swift */; };
+		43C879A5289A8CD200082EC3 /* OMSDK-Static.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C879A4289A8CD200082EC3 /* OMSDK-Static.xcframework */; };
+		6315C08926E893A700146DB0 /* IASBaseDisplayAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315C08826E893A700146DB0 /* IASBaseDisplayAdView.swift */; };
+		6315C08B26E893BE00146DB0 /* IASBaseDisplayBannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315C08A26E893BE00146DB0 /* IASBaseDisplayBannerAd.swift */; };
+		6320702026C3B29600C6A36D /* IASNativeAdContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320701F26C3B29500C6A36D /* IASNativeAdContainer.swift */; };
+		632ADE9F26DE497D00D39841 /* IASBannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632ADE9E26DE497D00D39841 /* IASBannerAdView.swift */; };
+		633E50C926DFCA050070F14A /* NSURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E50C826DFCA050070F14A /* NSURLSession.swift */; };
+		634071B726B7EF050063D097 /* IASOMID_SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634071B626B7EF050063D097 /* IASOMID_SDK.swift */; };
+		634071D426B7F0270063D097 /* IASUIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634071D326B7F0270063D097 /* IASUIViewExtension.swift */; };
+		634071D626B7F04B0063D097 /* SdkAdSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634071D526B7F04B0063D097 /* SdkAdSession.swift */; };
+		634071D826B7F08F0063D097 /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634071D726B7F08F0063D097 /* Defines.swift */; };
+		634FEC1326B9487600FD4051 /* IASOMID.m in Sources */ = {isa = PBXBuildFile; fileRef = 634FEC1226B9487600FD4051 /* IASOMID.m */; };
+		636828E426F8A7E30005925A /* IASNativeVideoAdInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636828E326F8A7E30005925A /* IASNativeVideoAdInfo.swift */; };
+		636828E626F8A84F0005925A /* IASVideoAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636828E526F8A84F0005925A /* IASVideoAd.swift */; };
+		636828E826F8A89E0005925A /* IASVideoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636828E726F8A89E0005925A /* IASVideoDelegate.swift */; };
+		636828EA26F8A8BD0005925A /* IASVideoAdLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636828E926F8A8BD0005925A /* IASVideoAdLoader.swift */; };
+		6368290526F8B8B00005925A /* IASVASTParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368290426F8B8B00005925A /* IASVASTParser.swift */; };
+		6368290726F8B8D20005925A /* VASTAdDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368290626F8B8D20005925A /* VASTAdDataParser.swift */; };
+		6368290926F8B8EC0005925A /* VASTAdMediaDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368290826F8B8EC0005925A /* VASTAdMediaDataParser.swift */; };
+		6368290B26F8B9080005925A /* VASTAdParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368290A26F8B9080005925A /* VASTAdParser.swift */; };
+		6368290D26F8B98B0005925A /* VASTAvidParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368290C26F8B98B0005925A /* VASTAvidParser.swift */; };
+		6368290F26F8B9A40005925A /* VASTCreativeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368290E26F8B9A40005925A /* VASTCreativeParser.swift */; };
+		6368291126F8B9CA0005925A /* VASTImpressionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368291026F8B9CA0005925A /* VASTImpressionParser.swift */; };
+		6368291326F8B9E30005925A /* VASTInLineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368291226F8B9E30005925A /* VASTInLineParser.swift */; };
+		6368291526F8B9FE0005925A /* VASTOmidAdVerificationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368291426F8B9FE0005925A /* VASTOmidAdVerificationParser.swift */; };
+		6368291726F8BA1D0005925A /* VASTOmidVerificationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368291626F8BA1D0005925A /* VASTOmidVerificationParser.swift */; };
+		6368291926F8BA330005925A /* VASTResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368291826F8BA330005925A /* VASTResponseParser.swift */; };
+		6368291B26F8BA4A0005925A /* VASTWrapperParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368291A26F8BA4A0005925A /* VASTWrapperParser.swift */; };
+		6368291E26F8BD320005925A /* VASTResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368291D26F8BD320005925A /* VASTResponse.swift */; };
+		6368292026F8BE140005925A /* WrapperAdData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368291F26F8BE140005925A /* WrapperAdData.swift */; };
+		6368292226F8BE680005925A /* AdData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368292126F8BE680005925A /* AdData.swift */; };
+		6368292526F8C0370005925A /* AdMediaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368292426F8C0370005925A /* AdMediaData.swift */; };
+		6368292726F8C0640005925A /* OMIDAdTrackingEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368292626F8C0640005925A /* OMIDAdTrackingEvents.swift */; };
+		6368292926F8C0C70005925A /* OMIDTrackingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368292826F8C0C70005925A /* OMIDTrackingEvent.swift */; };
+		6368292B26F8C11B0005925A /* LinearAdMediaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368292A26F8C11B0005925A /* LinearAdMediaData.swift */; };
+		6368292D26F8C1BC0005925A /* AdCreative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368292C26F8C1BC0005925A /* AdCreative.swift */; };
+		6368292F26F8C1DC0005925A /* OMIDImpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368292E26F8C1DC0005925A /* OMIDImpression.swift */; };
+		6368293126F8C2160005925A /* InLineAdData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368293026F8C2160005925A /* InLineAdData.swift */; };
+		6368293326F8C2450005925A /* OmidAdVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368293226F8C2450005925A /* OmidAdVerification.swift */; };
+		6368293526F8C2C80005925A /* OmidVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368293426F8C2C80005925A /* OmidVerification.swift */; };
+		6368293726F8C4790005925A /* OMIDAdImpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368293626F8C4790005925A /* OMIDAdImpression.swift */; };
+		6368293926F8C7C60005925A /* IASVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6368293826F8C7C60005925A /* IASVideoPlayer.swift */; };
+		637AA29B26EA000A001A6782 /* TreeTimeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 637AA29A26EA000A001A6782 /* TreeTimeLogger.m */; };
+		637AA29D26EA003B001A6782 /* TimeLoggerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637AA29C26EA003B001A6782 /* TimeLoggerWrapper.swift */; };
+		637B107526FB00330035B8F2 /* DispatchOnceForQurtileEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637B107426FB00330035B8F2 /* DispatchOnceForQurtileEvents.swift */; };
+		6390BC9B26DE0E51002B5C34 /* IASAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6390BC9A26DE0E51002B5C34 /* IASAd.swift */; };
+		63972F6526DEA26000CFBC70 /* IASNetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63972F6426DEA26000CFBC70 /* IASNetworkHelper.swift */; };
+		63A90279270325AE006F236E /* IASInterstitialVideoAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A90278270325AE006F236E /* IASInterstitialVideoAd.swift */; };
+		63A9E37827C8A565004F0A93 /* IASAudioBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9E37727C8A565004F0A93 /* IASAudioBannerView.swift */; };
+		63A9E37A27C8A5C4004F0A93 /* IASAudioViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9E37927C8A5C4004F0A93 /* IASAudioViewInterface.swift */; };
+		63B0613F26E0BBD400248FE0 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B0613E26E0BBD400248FE0 /* ImageExtensions.swift */; };
+		63C4379226F11F360093B3B5 /* IASBaseVideoAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C4379126F11F360093B3B5 /* IASBaseVideoAd.swift */; };
+		63CA838726E243ED00D283A5 /* IASBaseInterstitialAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CA838626E243ED00D283A5 /* IASBaseInterstitialAd.swift */; };
+		63D071AF27C7A14F00F72C84 /* IASAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D071AE27C7A14F00F72C84 /* IASAudioView.swift */; };
+		63D071B127C7AE9D00F72C84 /* IASAudioAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D071B027C7AE9D00F72C84 /* IASAudioAd.swift */; };
+		63D071B327C7AEDB00F72C84 /* IASBaseAudioAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D071B227C7AEDB00F72C84 /* IASBaseAudioAd.swift */; };
+		63D071B527C7B0AB00F72C84 /* IASAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D071B427C7B0AB00F72C84 /* IASAudioPlayer.swift */; };
+		63D071B727C7B51D00F72C84 /* IASAudioDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D071B627C7B51D00F72C84 /* IASAudioDelegate.swift */; };
+		63E2529A26BA9EAC00FF1FC6 /* IAS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2529926BA9EAC00FF1FC6 /* IAS.swift */; };
+		63E2529C26BA9F1800FF1FC6 /* IASServerPortConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2529B26BA9F1800FF1FC6 /* IASServerPortConfig.swift */; };
+		63E2529E26BAA09700FF1FC6 /* IASCreativesURLUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2529D26BAA09700FF1FC6 /* IASCreativesURLUtil.swift */; };
+		63E7EA6D27CCAA2E00C1F671 /* IASAudioAdLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E7EA6C27CCAA2E00C1F671 /* IASAudioAdLoader.swift */; };
+		63E98B1C26FA6225004E9593 /* IASVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E98B1B26FA6225004E9593 /* IASVideoView.swift */; };
+		63E98B1E26FA626A004E9593 /* IASVideoBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E98B1D26FA626A004E9593 /* IASVideoBannerView.swift */; };
+		63E98B2026FA62AF004E9593 /* IASVideoFullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E98B1F26FA62AF004E9593 /* IASVideoFullScreenViewController.swift */; };
+		63E98B2226FA63A7004E9593 /* IASVideoViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E98B2126FA63A7004E9593 /* IASVideoViewInterface.swift */; };
+		FE36D0FD27D8D514009B8C6D /* IASNativeAudioAdInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE36D0FC27D8D514009B8C6D /* IASNativeAudioAdInfo.swift */; };
+		FE36D10027D8F2AC009B8C6D /* IASNativeVASTAdInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE36D0FF27D8F2AC009B8C6D /* IASNativeVASTAdInfo.swift */; };
+		FE67C82527FC4C460081011E /* IASPartner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE67C82427FC4C460081011E /* IASPartner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		634071B126B7EF050063D097 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		436CD34828351241001F5255 /* IASUserAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASUserAgent.swift; sourceTree = "<group>"; };
+		43C879A4289A8CD200082EC3 /* OMSDK-Static.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "OMSDK-Static.xcframework"; sourceTree = "<group>"; };
+		63079746273D3EA4008814C6 /* OMIDAdSessionContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDAdSessionContext.h; sourceTree = "<group>"; };
+		63079747273D3EA4008814C6 /* OMIDMediaEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDMediaEvents.h; sourceTree = "<group>"; };
+		63079748273D3EA4008814C6 /* OMIDFriendlyObstructionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDFriendlyObstructionType.h; sourceTree = "<group>"; };
+		63079749273D3EA5008814C6 /* OMIDPartner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDPartner.h; sourceTree = "<group>"; };
+		6307974A273D3EA5008814C6 /* OMIDVASTProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDVASTProperties.h; sourceTree = "<group>"; };
+		6307974B273D3EA5008814C6 /* OMIDScriptInjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDScriptInjector.h; sourceTree = "<group>"; };
+		6307974C273D3EA5008814C6 /* OMIDAdSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDAdSession.h; sourceTree = "<group>"; };
+		6307974D273D3EA5008814C6 /* OMIDVerificationScriptResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDVerificationScriptResource.h; sourceTree = "<group>"; };
+		6307974E273D3EA5008814C6 /* OMIDImports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDImports.h; sourceTree = "<group>"; };
+		6307974F273D3EA5008814C6 /* OMIDSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDSDK.h; sourceTree = "<group>"; };
+		63079750273D3EA6008814C6 /* OMIDAdSessionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDAdSessionConfiguration.h; sourceTree = "<group>"; };
+		63079751273D3EA6008814C6 /* OMIDAdEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIDAdEvents.h; sourceTree = "<group>"; };
+		6315C08826E893A700146DB0 /* IASBaseDisplayAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASBaseDisplayAdView.swift; sourceTree = "<group>"; };
+		6315C08A26E893BE00146DB0 /* IASBaseDisplayBannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASBaseDisplayBannerAd.swift; sourceTree = "<group>"; };
+		6320701F26C3B29500C6A36D /* IASNativeAdContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASNativeAdContainer.swift; sourceTree = "<group>"; };
+		632ADE9E26DE497D00D39841 /* IASBannerAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASBannerAdView.swift; sourceTree = "<group>"; };
+		63382D8626CD450300D8415D /* IAS.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IAS.xcassets; sourceTree = "<group>"; };
+		633E50C826DFCA050070F14A /* NSURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSURLSession.swift; sourceTree = "<group>"; };
+		634071B326B7EF050063D097 /* libIASOMID_SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIASOMID_SDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		634071B626B7EF050063D097 /* IASOMID_SDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASOMID_SDK.swift; sourceTree = "<group>"; };
+		634071D326B7F0270063D097 /* IASUIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASUIViewExtension.swift; sourceTree = "<group>"; };
+		634071D526B7F04B0063D097 /* SdkAdSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdkAdSession.swift; sourceTree = "<group>"; };
+		634071D726B7F08F0063D097 /* Defines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defines.swift; sourceTree = "<group>"; };
+		634FEC1026B9487500FD4051 /* IASOMID_SDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IASOMID_SDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		634FEC1126B9487600FD4051 /* IASOMID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IASOMID.h; sourceTree = "<group>"; };
+		634FEC1226B9487600FD4051 /* IASOMID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IASOMID.m; sourceTree = "<group>"; };
+		636828E326F8A7E30005925A /* IASNativeVideoAdInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASNativeVideoAdInfo.swift; sourceTree = "<group>"; };
+		636828E526F8A84F0005925A /* IASVideoAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASVideoAd.swift; sourceTree = "<group>"; };
+		636828E726F8A89E0005925A /* IASVideoDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASVideoDelegate.swift; sourceTree = "<group>"; };
+		636828E926F8A8BD0005925A /* IASVideoAdLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASVideoAdLoader.swift; sourceTree = "<group>"; };
+		6368290426F8B8B00005925A /* IASVASTParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASVASTParser.swift; sourceTree = "<group>"; };
+		6368290626F8B8D20005925A /* VASTAdDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VASTAdDataParser.swift; sourceTree = "<group>"; };
+		6368290826F8B8EC0005925A /* VASTAdMediaDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VASTAdMediaDataParser.swift; sourceTree = "<group>"; };
+		6368290A26F8B9080005925A /* VASTAdParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VASTAdParser.swift; sourceTree = "<group>"; };
+		6368290C26F8B98B0005925A /* VASTAvidParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VASTAvidParser.swift; sourceTree = "<group>"; };
+		6368290E26F8B9A40005925A /* VASTCreativeParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VASTCreativeParser.swift; sourceTree = "<group>"; };
+		6368291026F8B9CA0005925A /* VASTImpressionParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VASTImpressionParser.swift; sourceTree = "<group>"; };
+		6368291226F8B9E30005925A /* VASTInLineParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VASTInLineParser.swift; sourceTree = "<group>"; };
+		6368291426F8B9FE0005925A /* VASTOmidAdVerificationParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VASTOmidAdVerificationParser.swift; sourceTree = "<group>"; };
+		6368291626F8BA1D0005925A /* VASTOmidVerificationParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VASTOmidVerificationParser.swift; sourceTree = "<group>"; };
+		6368291826F8BA330005925A /* VASTResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VASTResponseParser.swift; sourceTree = "<group>"; };
+		6368291A26F8BA4A0005925A /* VASTWrapperParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VASTWrapperParser.swift; sourceTree = "<group>"; };
+		6368291D26F8BD320005925A /* VASTResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VASTResponse.swift; sourceTree = "<group>"; };
+		6368291F26F8BE140005925A /* WrapperAdData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperAdData.swift; sourceTree = "<group>"; };
+		6368292126F8BE680005925A /* AdData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdData.swift; sourceTree = "<group>"; };
+		6368292426F8C0370005925A /* AdMediaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMediaData.swift; sourceTree = "<group>"; };
+		6368292626F8C0640005925A /* OMIDAdTrackingEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMIDAdTrackingEvents.swift; sourceTree = "<group>"; };
+		6368292826F8C0C70005925A /* OMIDTrackingEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMIDTrackingEvent.swift; sourceTree = "<group>"; };
+		6368292A26F8C11B0005925A /* LinearAdMediaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearAdMediaData.swift; sourceTree = "<group>"; };
+		6368292C26F8C1BC0005925A /* AdCreative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCreative.swift; sourceTree = "<group>"; };
+		6368292E26F8C1DC0005925A /* OMIDImpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMIDImpression.swift; sourceTree = "<group>"; };
+		6368293026F8C2160005925A /* InLineAdData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InLineAdData.swift; sourceTree = "<group>"; };
+		6368293226F8C2450005925A /* OmidAdVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmidAdVerification.swift; sourceTree = "<group>"; };
+		6368293426F8C2C80005925A /* OmidVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmidVerification.swift; sourceTree = "<group>"; };
+		6368293626F8C4790005925A /* OMIDAdImpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMIDAdImpression.swift; sourceTree = "<group>"; };
+		6368293826F8C7C60005925A /* IASVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASVideoPlayer.swift; sourceTree = "<group>"; };
+		637AA29926EA000A001A6782 /* TreeTimeLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeTimeLogger.h; sourceTree = "<group>"; };
+		637AA29A26EA000A001A6782 /* TreeTimeLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeTimeLogger.m; sourceTree = "<group>"; };
+		637AA29C26EA003B001A6782 /* TimeLoggerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLoggerWrapper.swift; sourceTree = "<group>"; };
+		637B107426FB00330035B8F2 /* DispatchOnceForQurtileEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchOnceForQurtileEvents.swift; sourceTree = "<group>"; };
+		6390BC9A26DE0E51002B5C34 /* IASAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASAd.swift; sourceTree = "<group>"; };
+		63972F6426DEA26000CFBC70 /* IASNetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASNetworkHelper.swift; sourceTree = "<group>"; };
+		63A90278270325AE006F236E /* IASInterstitialVideoAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASInterstitialVideoAd.swift; sourceTree = "<group>"; };
+		63A9E37727C8A565004F0A93 /* IASAudioBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASAudioBannerView.swift; sourceTree = "<group>"; };
+		63A9E37927C8A5C4004F0A93 /* IASAudioViewInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASAudioViewInterface.swift; sourceTree = "<group>"; };
+		63A9E37F27C8B74A004F0A93 /* IASBannerAudioView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IASBannerAudioView.xib; sourceTree = "<group>"; };
+		63B0613E26E0BBD400248FE0 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
+		63C4379126F11F360093B3B5 /* IASBaseVideoAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASBaseVideoAd.swift; sourceTree = "<group>"; };
+		63CA838626E243ED00D283A5 /* IASBaseInterstitialAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASBaseInterstitialAd.swift; sourceTree = "<group>"; };
+		63D071AE27C7A14F00F72C84 /* IASAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASAudioView.swift; sourceTree = "<group>"; };
+		63D071B027C7AE9D00F72C84 /* IASAudioAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASAudioAd.swift; sourceTree = "<group>"; };
+		63D071B227C7AEDB00F72C84 /* IASBaseAudioAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASBaseAudioAd.swift; sourceTree = "<group>"; };
+		63D071B427C7B0AB00F72C84 /* IASAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASAudioPlayer.swift; sourceTree = "<group>"; };
+		63D071B627C7B51D00F72C84 /* IASAudioDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASAudioDelegate.swift; sourceTree = "<group>"; };
+		63E2529926BA9EAC00FF1FC6 /* IAS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAS.swift; sourceTree = "<group>"; };
+		63E2529B26BA9F1800FF1FC6 /* IASServerPortConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASServerPortConfig.swift; sourceTree = "<group>"; };
+		63E2529D26BAA09700FF1FC6 /* IASCreativesURLUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASCreativesURLUtil.swift; sourceTree = "<group>"; };
+		63E7EA6C27CCAA2E00C1F671 /* IASAudioAdLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASAudioAdLoader.swift; sourceTree = "<group>"; };
+		63E98B1B26FA6225004E9593 /* IASVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASVideoView.swift; sourceTree = "<group>"; };
+		63E98B1D26FA626A004E9593 /* IASVideoBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASVideoBannerView.swift; sourceTree = "<group>"; };
+		63E98B1F26FA62AF004E9593 /* IASVideoFullScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASVideoFullScreenViewController.swift; sourceTree = "<group>"; };
+		63E98B2126FA63A7004E9593 /* IASVideoViewInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASVideoViewInterface.swift; sourceTree = "<group>"; };
+		63E98B2326FA63DD004E9593 /* IASVideoFullScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IASVideoFullScreenViewController.xib; sourceTree = "<group>"; };
+		63E98B2426FA63DD004E9593 /* IASVideoBannerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IASVideoBannerView.xib; path = ../../../../../../../OM_SDK_Training/IASVideoBannerView.xib; sourceTree = "<group>"; };
+		FE36D0FC27D8D514009B8C6D /* IASNativeAudioAdInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASNativeAudioAdInfo.swift; sourceTree = "<group>"; };
+		FE36D0FF27D8F2AC009B8C6D /* IASNativeVASTAdInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASNativeVASTAdInfo.swift; sourceTree = "<group>"; };
+		FE67C82427FC4C460081011E /* IASPartner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IASPartner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		634071B026B7EF050063D097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C879A5289A8CD200082EC3 /* OMSDK-Static.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6320701E26C3B21B00C6A36D /* NativeAd */ = {
+			isa = PBXGroup;
+			children = (
+				6320701F26C3B29500C6A36D /* IASNativeAdContainer.swift */,
+			);
+			path = NativeAd;
+			sourceTree = "<group>";
+		};
+		634071AA26B7EF050063D097 = {
+			isa = PBXGroup;
+			children = (
+				634FEC0D26B9481F00FD4051 /* Framework */,
+				634071B526B7EF050063D097 /* IASOMID_SDK */,
+				634071B426B7EF050063D097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		634071B426B7EF050063D097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634071B326B7EF050063D097 /* libIASOMID_SDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		634071B526B7EF050063D097 /* IASOMID_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				63D071AA27C79BB100F72C84 /* NativeAudioAd */,
+				63C4378F26F11EF10093B3B5 /* VideoAd */,
+				63972F6326DEA23A00CFBC70 /* Network */,
+				6320701E26C3B21B00C6A36D /* NativeAd */,
+				634FEC0C26B947E400FD4051 /* Bridging */,
+				634071D226B7F01C0063D097 /* Util */,
+				634071B626B7EF050063D097 /* IASOMID_SDK.swift */,
+				634071D726B7F08F0063D097 /* Defines.swift */,
+				63E2529926BA9EAC00FF1FC6 /* IAS.swift */,
+				6390BC9A26DE0E51002B5C34 /* IASAd.swift */,
+				632ADE9E26DE497D00D39841 /* IASBannerAdView.swift */,
+				63CA838626E243ED00D283A5 /* IASBaseInterstitialAd.swift */,
+				6315C08826E893A700146DB0 /* IASBaseDisplayAdView.swift */,
+				6315C08A26E893BE00146DB0 /* IASBaseDisplayBannerAd.swift */,
+				63382D8626CD450300D8415D /* IAS.xcassets */,
+			);
+			name = IASOMID_SDK;
+			path = IAS_OMSDK;
+			sourceTree = "<group>";
+		};
+		634071D226B7F01C0063D097 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				634071D326B7F0270063D097 /* IASUIViewExtension.swift */,
+				634071D526B7F04B0063D097 /* SdkAdSession.swift */,
+				63E2529B26BA9F1800FF1FC6 /* IASServerPortConfig.swift */,
+				63E2529D26BAA09700FF1FC6 /* IASCreativesURLUtil.swift */,
+				63B0613E26E0BBD400248FE0 /* ImageExtensions.swift */,
+				637AA29C26EA003B001A6782 /* TimeLoggerWrapper.swift */,
+				FE67C82427FC4C460081011E /* IASPartner.swift */,
+				436CD34828351241001F5255 /* IASUserAgent.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		634FEC0C26B947E400FD4051 /* Bridging */ = {
+			isa = PBXGroup;
+			children = (
+				63079751273D3EA6008814C6 /* OMIDAdEvents.h */,
+				6307974C273D3EA5008814C6 /* OMIDAdSession.h */,
+				63079750273D3EA6008814C6 /* OMIDAdSessionConfiguration.h */,
+				63079746273D3EA4008814C6 /* OMIDAdSessionContext.h */,
+				63079748273D3EA4008814C6 /* OMIDFriendlyObstructionType.h */,
+				6307974E273D3EA5008814C6 /* OMIDImports.h */,
+				63079747273D3EA4008814C6 /* OMIDMediaEvents.h */,
+				63079749273D3EA5008814C6 /* OMIDPartner.h */,
+				6307974B273D3EA5008814C6 /* OMIDScriptInjector.h */,
+				6307974F273D3EA5008814C6 /* OMIDSDK.h */,
+				6307974A273D3EA5008814C6 /* OMIDVASTProperties.h */,
+				6307974D273D3EA5008814C6 /* OMIDVerificationScriptResource.h */,
+				637AA29926EA000A001A6782 /* TreeTimeLogger.h */,
+				637AA29A26EA000A001A6782 /* TreeTimeLogger.m */,
+				634FEC1126B9487600FD4051 /* IASOMID.h */,
+				634FEC1226B9487600FD4051 /* IASOMID.m */,
+				634FEC1026B9487500FD4051 /* IASOMID_SDK-Bridging-Header.h */,
+			);
+			path = Bridging;
+			sourceTree = "<group>";
+		};
+		634FEC0D26B9481F00FD4051 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				43C879A4289A8CD200082EC3 /* OMSDK-Static.xcframework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		636828EB26F8B8620005925A /* VASTParser */ = {
+			isa = PBXGroup;
+			children = (
+				6368290426F8B8B00005925A /* IASVASTParser.swift */,
+				6368290626F8B8D20005925A /* VASTAdDataParser.swift */,
+				6368290826F8B8EC0005925A /* VASTAdMediaDataParser.swift */,
+				6368290A26F8B9080005925A /* VASTAdParser.swift */,
+				6368290C26F8B98B0005925A /* VASTAvidParser.swift */,
+				6368290E26F8B9A40005925A /* VASTCreativeParser.swift */,
+				6368291026F8B9CA0005925A /* VASTImpressionParser.swift */,
+				6368291226F8B9E30005925A /* VASTInLineParser.swift */,
+				6368291426F8B9FE0005925A /* VASTOmidAdVerificationParser.swift */,
+				6368291626F8BA1D0005925A /* VASTOmidVerificationParser.swift */,
+				6368291826F8BA330005925A /* VASTResponseParser.swift */,
+				6368291A26F8BA4A0005925A /* VASTWrapperParser.swift */,
+			);
+			path = VASTParser;
+			sourceTree = "<group>";
+		};
+		6368291C26F8BC870005925A /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				6368293826F8C7C60005925A /* IASVideoPlayer.swift */,
+				637B107426FB00330035B8F2 /* DispatchOnceForQurtileEvents.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		6368292326F8BFD70005925A /* VAST */ = {
+			isa = PBXGroup;
+			children = (
+				6368291D26F8BD320005925A /* VASTResponse.swift */,
+				6368291F26F8BE140005925A /* WrapperAdData.swift */,
+				6368292126F8BE680005925A /* AdData.swift */,
+				6368292426F8C0370005925A /* AdMediaData.swift */,
+				6368292626F8C0640005925A /* OMIDAdTrackingEvents.swift */,
+				6368292826F8C0C70005925A /* OMIDTrackingEvent.swift */,
+				6368292A26F8C11B0005925A /* LinearAdMediaData.swift */,
+				6368292C26F8C1BC0005925A /* AdCreative.swift */,
+				6368292E26F8C1DC0005925A /* OMIDImpression.swift */,
+				6368293026F8C2160005925A /* InLineAdData.swift */,
+				6368293226F8C2450005925A /* OmidAdVerification.swift */,
+				6368293426F8C2C80005925A /* OmidVerification.swift */,
+				6368293626F8C4790005925A /* OMIDAdImpression.swift */,
+			);
+			path = VAST;
+			sourceTree = "<group>";
+		};
+		63972F6326DEA23A00CFBC70 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				63972F6426DEA26000CFBC70 /* IASNetworkHelper.swift */,
+				633E50C826DFCA050070F14A /* NSURLSession.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		63C4378F26F11EF10093B3B5 /* VideoAd */ = {
+			isa = PBXGroup;
+			children = (
+				63E98B1726FA2279004E9593 /* View */,
+				6368292326F8BFD70005925A /* VAST */,
+				6368291C26F8BC870005925A /* Player */,
+				636828EB26F8B8620005925A /* VASTParser */,
+				63C4379026F11EFF0093B3B5 /* Base */,
+				636828E326F8A7E30005925A /* IASNativeVideoAdInfo.swift */,
+				636828E526F8A84F0005925A /* IASVideoAd.swift */,
+				636828E726F8A89E0005925A /* IASVideoDelegate.swift */,
+				636828E926F8A8BD0005925A /* IASVideoAdLoader.swift */,
+				63A90278270325AE006F236E /* IASInterstitialVideoAd.swift */,
+				FE36D0FF27D8F2AC009B8C6D /* IASNativeVASTAdInfo.swift */,
+			);
+			path = VideoAd;
+			sourceTree = "<group>";
+		};
+		63C4379026F11EFF0093B3B5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				63C4379126F11F360093B3B5 /* IASBaseVideoAd.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		63D071AA27C79BB100F72C84 /* NativeAudioAd */ = {
+			isa = PBXGroup;
+			children = (
+				63D071AD27C7A12100F72C84 /* View */,
+				63D071B027C7AE9D00F72C84 /* IASAudioAd.swift */,
+				63D071B227C7AEDB00F72C84 /* IASBaseAudioAd.swift */,
+				63D071B627C7B51D00F72C84 /* IASAudioDelegate.swift */,
+				63D071B427C7B0AB00F72C84 /* IASAudioPlayer.swift */,
+				63E7EA6C27CCAA2E00C1F671 /* IASAudioAdLoader.swift */,
+				FE36D0FC27D8D514009B8C6D /* IASNativeAudioAdInfo.swift */,
+			);
+			path = NativeAudioAd;
+			sourceTree = "<group>";
+		};
+		63D071AD27C7A12100F72C84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63D071AE27C7A14F00F72C84 /* IASAudioView.swift */,
+				63A9E37727C8A565004F0A93 /* IASAudioBannerView.swift */,
+				63A9E37927C8A5C4004F0A93 /* IASAudioViewInterface.swift */,
+				63A9E37F27C8B74A004F0A93 /* IASBannerAudioView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63E98B1726FA2279004E9593 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63E98B2426FA63DD004E9593 /* IASVideoBannerView.xib */,
+				63E98B2326FA63DD004E9593 /* IASVideoFullScreenViewController.xib */,
+				63E98B1B26FA6225004E9593 /* IASVideoView.swift */,
+				63E98B1D26FA626A004E9593 /* IASVideoBannerView.swift */,
+				63E98B1F26FA62AF004E9593 /* IASVideoFullScreenViewController.swift */,
+				63E98B2126FA63A7004E9593 /* IASVideoViewInterface.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		634071B226B7EF050063D097 /* IASOMID_SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634071BA26B7EF050063D097 /* Build configuration list for PBXNativeTarget "IASOMID_SDK" */;
+			buildPhases = (
+				634071AF26B7EF050063D097 /* Sources */,
+				634071B026B7EF050063D097 /* Frameworks */,
+				634071B126B7EF050063D097 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IASOMID_SDK;
+			productName = IASOMID_SDK;
+			productReference = 634071B326B7EF050063D097 /* libIASOMID_SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		634071AB26B7EF050063D097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Akshay Patil";
+				TargetAttributes = {
+					634071B226B7EF050063D097 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 634071AE26B7EF050063D097 /* Build configuration list for PBXProject "IAS_OMSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 634071AA26B7EF050063D097;
+			productRefGroup = 634071B426B7EF050063D097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				634071B226B7EF050063D097 /* IASOMID_SDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		634071AF26B7EF050063D097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6368292B26F8C11B0005925A /* LinearAdMediaData.swift in Sources */,
+				6368291526F8B9FE0005925A /* VASTOmidAdVerificationParser.swift in Sources */,
+				6368292226F8BE680005925A /* AdData.swift in Sources */,
+				6315C08B26E893BE00146DB0 /* IASBaseDisplayBannerAd.swift in Sources */,
+				6368293126F8C2160005925A /* InLineAdData.swift in Sources */,
+				636828E626F8A84F0005925A /* IASVideoAd.swift in Sources */,
+				FE36D10027D8F2AC009B8C6D /* IASNativeVASTAdInfo.swift in Sources */,
+				436CD34928351241001F5255 /* IASUserAgent.swift in Sources */,
+				63E2529A26BA9EAC00FF1FC6 /* IAS.swift in Sources */,
+				63E98B1E26FA626A004E9593 /* IASVideoBannerView.swift in Sources */,
+				6368293326F8C2450005925A /* OmidAdVerification.swift in Sources */,
+				634FEC1326B9487600FD4051 /* IASOMID.m in Sources */,
+				6368292F26F8C1DC0005925A /* OMIDImpression.swift in Sources */,
+				63E98B2226FA63A7004E9593 /* IASVideoViewInterface.swift in Sources */,
+				6368290B26F8B9080005925A /* VASTAdParser.swift in Sources */,
+				634071B726B7EF050063D097 /* IASOMID_SDK.swift in Sources */,
+				63B0613F26E0BBD400248FE0 /* ImageExtensions.swift in Sources */,
+				6368292526F8C0370005925A /* AdMediaData.swift in Sources */,
+				63E2529C26BA9F1800FF1FC6 /* IASServerPortConfig.swift in Sources */,
+				6368293926F8C7C60005925A /* IASVideoPlayer.swift in Sources */,
+				63A9E37A27C8A5C4004F0A93 /* IASAudioViewInterface.swift in Sources */,
+				63E98B2026FA62AF004E9593 /* IASVideoFullScreenViewController.swift in Sources */,
+				6368291126F8B9CA0005925A /* VASTImpressionParser.swift in Sources */,
+				6368292726F8C0640005925A /* OMIDAdTrackingEvents.swift in Sources */,
+				63CA838726E243ED00D283A5 /* IASBaseInterstitialAd.swift in Sources */,
+				6320702026C3B29600C6A36D /* IASNativeAdContainer.swift in Sources */,
+				6315C08926E893A700146DB0 /* IASBaseDisplayAdView.swift in Sources */,
+				63D071B727C7B51D00F72C84 /* IASAudioDelegate.swift in Sources */,
+				637B107526FB00330035B8F2 /* DispatchOnceForQurtileEvents.swift in Sources */,
+				6368293526F8C2C80005925A /* OmidVerification.swift in Sources */,
+				6368291E26F8BD320005925A /* VASTResponse.swift in Sources */,
+				6390BC9B26DE0E51002B5C34 /* IASAd.swift in Sources */,
+				6368292026F8BE140005925A /* WrapperAdData.swift in Sources */,
+				63C4379226F11F360093B3B5 /* IASBaseVideoAd.swift in Sources */,
+				634071D626B7F04B0063D097 /* SdkAdSession.swift in Sources */,
+				63E7EA6D27CCAA2E00C1F671 /* IASAudioAdLoader.swift in Sources */,
+				6368290F26F8B9A40005925A /* VASTCreativeParser.swift in Sources */,
+				63D071B527C7B0AB00F72C84 /* IASAudioPlayer.swift in Sources */,
+				63A9E37827C8A565004F0A93 /* IASAudioBannerView.swift in Sources */,
+				63D071AF27C7A14F00F72C84 /* IASAudioView.swift in Sources */,
+				634071D426B7F0270063D097 /* IASUIViewExtension.swift in Sources */,
+				63D071B327C7AEDB00F72C84 /* IASBaseAudioAd.swift in Sources */,
+				FE36D0FD27D8D514009B8C6D /* IASNativeAudioAdInfo.swift in Sources */,
+				6368290926F8B8EC0005925A /* VASTAdMediaDataParser.swift in Sources */,
+				63A90279270325AE006F236E /* IASInterstitialVideoAd.swift in Sources */,
+				6368290526F8B8B00005925A /* IASVASTParser.swift in Sources */,
+				63D071B127C7AE9D00F72C84 /* IASAudioAd.swift in Sources */,
+				636828EA26F8A8BD0005925A /* IASVideoAdLoader.swift in Sources */,
+				636828E826F8A89E0005925A /* IASVideoDelegate.swift in Sources */,
+				6368292926F8C0C70005925A /* OMIDTrackingEvent.swift in Sources */,
+				63E2529E26BAA09700FF1FC6 /* IASCreativesURLUtil.swift in Sources */,
+				6368291926F8BA330005925A /* VASTResponseParser.swift in Sources */,
+				63972F6526DEA26000CFBC70 /* IASNetworkHelper.swift in Sources */,
+				633E50C926DFCA050070F14A /* NSURLSession.swift in Sources */,
+				632ADE9F26DE497D00D39841 /* IASBannerAdView.swift in Sources */,
+				634071D826B7F08F0063D097 /* Defines.swift in Sources */,
+				636828E426F8A7E30005925A /* IASNativeVideoAdInfo.swift in Sources */,
+				6368290D26F8B98B0005925A /* VASTAvidParser.swift in Sources */,
+				6368290726F8B8D20005925A /* VASTAdDataParser.swift in Sources */,
+				6368291726F8BA1D0005925A /* VASTOmidVerificationParser.swift in Sources */,
+				6368291326F8B9E30005925A /* VASTInLineParser.swift in Sources */,
+				63E98B1C26FA6225004E9593 /* IASVideoView.swift in Sources */,
+				637AA29D26EA003B001A6782 /* TimeLoggerWrapper.swift in Sources */,
+				6368293726F8C4790005925A /* OMIDAdImpression.swift in Sources */,
+				6368292D26F8C1BC0005925A /* AdCreative.swift in Sources */,
+				637AA29B26EA000A001A6782 /* TreeTimeLogger.m in Sources */,
+				6368291B26F8BA4A0005925A /* VASTWrapperParser.swift in Sources */,
+				FE67C82527FC4C460081011E /* IASPartner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		634071B826B7EF050063D097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		634071B926B7EF050063D097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		634071BB26B7EF050063D097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46936JKAFX;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "IASOMID_SDK/Bridging/IASOMID_SDK-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		634071BC26B7EF050063D097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46936JKAFX;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "IASOMID_SDK/Bridging/IASOMID_SDK-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		634071AE26B7EF050063D097 /* Build configuration list for PBXProject "IAS_OMSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634071B826B7EF050063D097 /* Debug */,
+				634071B926B7EF050063D097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634071BA26B7EF050063D097 /* Build configuration list for PBXNativeTarget "IASOMID_SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634071BB26B7EF050063D097 /* Debug */,
+				634071BC26B7EF050063D097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 634071AB26B7EF050063D097 /* Project object */;
+}
